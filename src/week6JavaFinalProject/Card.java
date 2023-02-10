@@ -48,8 +48,8 @@ public class Card {
 	
 	@Override
 	public String toString() {
-		return name + " of " + suit;
-	}
+		return name + " of " + suit; // added this toString method to print the suits and card names and 
+	}                                // to avoid printing the reference of the card class.
 
 }
 
